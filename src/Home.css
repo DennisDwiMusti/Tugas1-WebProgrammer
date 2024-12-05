@@ -1,0 +1,19 @@
+.home-container {
+    background-image: url('./Laptop.jpg'); /* Gunakan Laptop.jpg sebagai background */
+    background-size: cover; /* Pastikan gambar memenuhi seluruh area */
+    background-position: center;
+    min-height: 100vh; /* Minimal layar penuh */
+    display: flex;
+    align-items: flex-start; /* Konten dimulai dari atas */
+    justify-content: flex-start;
+    padding: 80px 20px; /* Tambahkan jarak dari atas dan kiri */
+  }
+  
+  .content {
+    background-color: rgba(255, 255, 255, 0.8); /* Warna latar belakang dengan transparansi */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek */
+    margin-top: -50px; /* Menaikkan konten ke atas */
+  }
+  
