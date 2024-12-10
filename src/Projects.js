@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./Projects.css"; // Import the styling
 import Project1 from "./Project1.png"; // Adjust path as necessary
 import Project2 from "./Project2.png"; // Adjust path as necessary
 import Project3 from "./Project3.png"; // Adjust path as necessary
@@ -21,7 +21,7 @@ function Projects() {
                             <img
                                 src={Project1}
                                 alt="Project 1"
-                                className="img-fluid rounded project-img"
+                                className="img-fluid rounded project-image"
                             />
                         </div>
                     </div>
@@ -36,7 +36,7 @@ function Projects() {
                             <img
                                 src={Project2}
                                 alt="Project 2"
-                                className="img-fluid rounded project-img"
+                                className="img-fluid rounded project-image"
                             />
                         </div>
                     </div>
@@ -51,7 +51,7 @@ function Projects() {
                             <img
                                 src={Project3}
                                 alt="Project 3"
-                                className="img-fluid rounded project-img"
+                                className="img-fluid rounded project-image"
                             />
                         </div>
                     </div>
@@ -66,28 +66,12 @@ function Projects() {
                             <img
                                 src={Project4}
                                 alt="Project 4"
-                                className="img-fluid rounded project-img"
+                                className="img-fluid rounded project-image"
                             />
                         </div>
                     </div>
                 </div>
             </div>
-
-            {/* CSS Styles */}
-            <style>
-                {`
-                .project-img {
-                    transition: transform 0.3s ease, box-shadow 0.3s ease;
-                    max-height: 300px;
-                    object-fit: cover;
-                }
-
-                .project-img:hover {
-                    transform: scale(1.1); /* Scales up the image by 10% */
-                    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
-                }
-                `}
-            </style>
         </div>
     );
 }
